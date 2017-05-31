@@ -10,21 +10,18 @@
 		BA20338418AB7F3C00A623CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA20338318AB7F3C00A623CE /* Foundation.framework */; };
 		BA20338618AB7F3C00A623CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA20338518AB7F3C00A623CE /* CoreGraphics.framework */; };
 		BA20338818AB7F3C00A623CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA20338718AB7F3C00A623CE /* UIKit.framework */; };
-		BA20338E18AB7F3C00A623CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA20338C18AB7F3C00A623CE /* InfoPlist.strings */; };
-		BA20339018AB7F3C00A623CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA20338F18AB7F3C00A623CE /* main.m */; };
-		BA20339418AB7F3C00A623CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA20339318AB7F3C00A623CE /* AppDelegate.m */; };
-		BA20339718AB7F3C00A623CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA20339518AB7F3C00A623CE /* Main.storyboard */; };
-		BA20339A18AB7F3C00A623CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA20339918AB7F3C00A623CE /* ViewController.m */; };
-		BA20339C18AB7F3C00A623CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA20339B18AB7F3C00A623CE /* Images.xcassets */; };
 		BA2033A318AB7F3C00A623CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2033A218AB7F3C00A623CE /* XCTest.framework */; };
 		BA2033A418AB7F3C00A623CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA20338318AB7F3C00A623CE /* Foundation.framework */; };
 		BA2033A518AB7F3C00A623CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA20338718AB7F3C00A623CE /* UIKit.framework */; };
-		BA2033AD18AB7F3C00A623CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2033AB18AB7F3C00A623CE /* InfoPlist.strings */; };
-		BA2033AF18AB7F3C00A623CE /* SearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2033AE18AB7F3C00A623CE /* SearchTests.m */; };
-		BA2033BA18AB822100A623CE /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2033B918AB822100A623CE /* Student.m */; };
-		BA2033BD18AB867800A623CE /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2033BC18AB867800A623CE /* Section.m */; };
-		BA2033C018ABBFBB00A623CE /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2033BF18ABBFBB00A623CE /* student.png */; };
-		BA67E78218AE728C00D5EC41 /* searchStudent.png in Resources */ = {isa = PBXBuildFile; fileRef = BA67E78118AE728C00D5EC41 /* searchStudent.png */; };
+		C6F14D361EDED87D00658494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F14D281EDED87D00658494 /* AppDelegate.m */; };
+		C6F14D3A1EDED87D00658494 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F14D2C1EDED87D00658494 /* Images.xcassets */; };
+		C6F14D3B1EDED87D00658494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F14D2D1EDED87D00658494 /* main.m */; };
+		C6F14D3C1EDED87D00658494 /* Search-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6F14D2E1EDED87D00658494 /* Search-Info.plist */; };
+		C6F14D3D1EDED87D00658494 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F14D311EDED87D00658494 /* Section.m */; };
+		C6F14D3E1EDED87D00658494 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F14D331EDED87D00658494 /* Student.m */; };
+		C6F14D3F1EDED87D00658494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F14D351EDED87D00658494 /* ViewController.m */; };
+		C6F14D5A1EDEDBD300658494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F14D581EDEDBD300658494 /* Main.storyboard */; };
+		C6F14D641EDEDC2500658494 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C6F14D621EDEDC2500658494 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,27 +39,22 @@
 		BA20338318AB7F3C00A623CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA20338518AB7F3C00A623CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BA20338718AB7F3C00A623CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BA20338B18AB7F3C00A623CE /* Search-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Search-Info.plist"; sourceTree = "<group>"; };
-		BA20338D18AB7F3C00A623CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BA20338F18AB7F3C00A623CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BA20339118AB7F3C00A623CE /* Search-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Search-Prefix.pch"; sourceTree = "<group>"; };
-		BA20339218AB7F3C00A623CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BA20339318AB7F3C00A623CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA20339618AB7F3C00A623CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA20339818AB7F3C00A623CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BA20339918AB7F3C00A623CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BA20339B18AB7F3C00A623CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BA2033A118AB7F3C00A623CE /* SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2033A218AB7F3C00A623CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BA2033AA18AB7F3C00A623CE /* SearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchTests-Info.plist"; sourceTree = "<group>"; };
-		BA2033AC18AB7F3C00A623CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BA2033AE18AB7F3C00A623CE /* SearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTests.m; sourceTree = "<group>"; };
-		BA2033B818AB822100A623CE /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		BA2033B918AB822100A623CE /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
-		BA2033BB18AB867800A623CE /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
-		BA2033BC18AB867800A623CE /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
-		BA2033BF18ABBFBB00A623CE /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student.png; sourceTree = "<group>"; };
-		BA67E78118AE728C00D5EC41 /* searchStudent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchStudent.png; sourceTree = "<group>"; };
+		C6F14D271EDED87D00658494 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Search/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		C6F14D281EDED87D00658494 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Search/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		C6F14D2C1EDED87D00658494 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Search/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		C6F14D2D1EDED87D00658494 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Search/main.m; sourceTree = SOURCE_ROOT; };
+		C6F14D2E1EDED87D00658494 /* Search-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Search-Info.plist"; path = "Search/Search-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C6F14D2F1EDED87D00658494 /* Search-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Search-Prefix.pch"; path = "Search/Search-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		C6F14D301EDED87D00658494 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Section.h; path = Search/Section.h; sourceTree = SOURCE_ROOT; };
+		C6F14D311EDED87D00658494 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Section.m; path = Search/Section.m; sourceTree = SOURCE_ROOT; };
+		C6F14D321EDED87D00658494 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = Search/Student.h; sourceTree = SOURCE_ROOT; };
+		C6F14D331EDED87D00658494 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = Search/Student.m; sourceTree = SOURCE_ROOT; };
+		C6F14D341EDED87D00658494 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Search/ViewController.h; sourceTree = SOURCE_ROOT; };
+		C6F14D351EDED87D00658494 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Search/ViewController.m; sourceTree = SOURCE_ROOT; };
+		C6F14D591EDEDBD300658494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Search/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		C6F14D631EDEDC2500658494 /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = Search/en.lproj/images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +84,7 @@
 		BA20337718AB7F3C00A623CE = {
 			isa = PBXGroup;
 			children = (
+				C6F14D621EDEDC2500658494 /* images */,
 				BA20338918AB7F3C00A623CE /* Search */,
 				BA2033A818AB7F3C00A623CE /* SearchTests */,
 				BA20338218AB7F3C00A623CE /* Frameworks */,
@@ -122,17 +115,14 @@
 		BA20338918AB7F3C00A623CE /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				BA20339218AB7F3C00A623CE /* AppDelegate.h */,
-				BA20339318AB7F3C00A623CE /* AppDelegate.m */,
-				BA20339818AB7F3C00A623CE /* ViewController.h */,
-				BA20339918AB7F3C00A623CE /* ViewController.m */,
-				BA2033B818AB822100A623CE /* Student.h */,
-				BA2033B918AB822100A623CE /* Student.m */,
-				BA2033BB18AB867800A623CE /* Section.h */,
-				BA2033BC18AB867800A623CE /* Section.m */,
-				BA20339518AB7F3C00A623CE /* Main.storyboard */,
-				BA20339B18AB7F3C00A623CE /* Images.xcassets */,
-				BA2033BE18ABBFBB00A623CE /* images */,
+				C6F14D271EDED87D00658494 /* AppDelegate.h */,
+				C6F14D281EDED87D00658494 /* AppDelegate.m */,
+				C6F14D301EDED87D00658494 /* Section.h */,
+				C6F14D311EDED87D00658494 /* Section.m */,
+				C6F14D321EDED87D00658494 /* Student.h */,
+				C6F14D331EDED87D00658494 /* Student.m */,
+				C6F14D341EDED87D00658494 /* ViewController.h */,
+				C6F14D351EDED87D00658494 /* ViewController.m */,
 				BA20338A18AB7F3C00A623CE /* Supporting Files */,
 			);
 			name = Search;
@@ -142,10 +132,8 @@
 		BA20338A18AB7F3C00A623CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BA20338B18AB7F3C00A623CE /* Search-Info.plist */,
-				BA20338C18AB7F3C00A623CE /* InfoPlist.strings */,
-				BA20338F18AB7F3C00A623CE /* main.m */,
-				BA20339118AB7F3C00A623CE /* Search-Prefix.pch */,
+				C6F14D581EDEDBD300658494 /* Main.storyboard */,
+				C6F14D2C1EDED87D00658494 /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,7 +141,6 @@
 		BA2033A818AB7F3C00A623CE /* SearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA2033AE18AB7F3C00A623CE /* SearchTests.m */,
 				BA2033A918AB7F3C00A623CE /* Supporting Files */,
 			);
 			name = SearchTests;
@@ -163,19 +150,11 @@
 		BA2033A918AB7F3C00A623CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BA2033AA18AB7F3C00A623CE /* SearchTests-Info.plist */,
-				BA2033AB18AB7F3C00A623CE /* InfoPlist.strings */,
+				C6F14D2E1EDED87D00658494 /* Search-Info.plist */,
+				C6F14D2F1EDED87D00658494 /* Search-Prefix.pch */,
+				C6F14D2D1EDED87D00658494 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BA2033BE18ABBFBB00A623CE /* images */ = {
-			isa = PBXGroup;
-			children = (
-				BA67E78118AE728C00D5EC41 /* searchStudent.png */,
-				BA2033BF18ABBFBB00A623CE /* student.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +201,7 @@
 		BA20337818AB7F3C00A623CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = AZ;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Alex Zbirnik";
 				TargetAttributes = {
@@ -258,11 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA20339C18AB7F3C00A623CE /* Images.xcassets in Resources */,
-				BA2033C018ABBFBB00A623CE /* student.png in Resources */,
-				BA20338E18AB7F3C00A623CE /* InfoPlist.strings in Resources */,
-				BA67E78218AE728C00D5EC41 /* searchStudent.png in Resources */,
-				BA20339718AB7F3C00A623CE /* Main.storyboard in Resources */,
+				C6F14D3A1EDED87D00658494 /* Images.xcassets in Resources */,
+				C6F14D5A1EDEDBD300658494 /* Main.storyboard in Resources */,
+				C6F14D3C1EDED87D00658494 /* Search-Info.plist in Resources */,
+				C6F14D641EDEDC2500658494 /* images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2033AD18AB7F3C00A623CE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2033BA18AB822100A623CE /* Student.m in Sources */,
-				BA2033BD18AB867800A623CE /* Section.m in Sources */,
-				BA20339018AB7F3C00A623CE /* main.m in Sources */,
-				BA20339A18AB7F3C00A623CE /* ViewController.m in Sources */,
-				BA20339418AB7F3C00A623CE /* AppDelegate.m in Sources */,
+				C6F14D3D1EDED87D00658494 /* Section.m in Sources */,
+				C6F14D361EDED87D00658494 /* AppDelegate.m in Sources */,
+				C6F14D3F1EDED87D00658494 /* ViewController.m in Sources */,
+				C6F14D3B1EDED87D00658494 /* main.m in Sources */,
+				C6F14D3E1EDED87D00658494 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2033AF18AB7F3C00A623CE /* SearchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,28 +284,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA20338C18AB7F3C00A623CE /* InfoPlist.strings */ = {
+		C6F14D581EDEDBD300658494 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BA20338D18AB7F3C00A623CE /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BA20339518AB7F3C00A623CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA20339618AB7F3C00A623CE /* Base */,
+				C6F14D591EDEDBD300658494 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BA2033AB18AB7F3C00A623CE /* InfoPlist.strings */ = {
+		C6F14D621EDEDC2500658494 /* images */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BA2033AC18AB7F3C00A623CE /* en */,
+				C6F14D631EDEDC2500658494 /* en */,
 			);
-			name = InfoPlist.strings;
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,8 +382,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8LJGXZ9C93;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AZSearch/Search-Prefix.pch";
-				INFOPLIST_FILE = "AZSearch/Search-Info.plist";
+				GCC_PREFIX_HEADER = "Search/Search-Prefix.pch";
+				INFOPLIST_FILE = "Search/Search-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = Chebahatt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -429,8 +397,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8LJGXZ9C93;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AZSearch/Search-Prefix.pch";
-				INFOPLIST_FILE = "AZSearch/Search-Info.plist";
+				GCC_PREFIX_HEADER = "Search/Search-Prefix.pch";
+				INFOPLIST_FILE = "Search/Search-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = Chebahatt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
